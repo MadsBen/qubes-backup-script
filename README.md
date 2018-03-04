@@ -8,12 +8,12 @@ Script for automated Qubes backup over network
   <li>It shutdowns every VM except DestinationVM
   <li>Passphrase is present in a file
   <li>Must be executed from dom0
-  <li>Manuelly mount the cifs share in DestVM after each reboot...
+  <li>Manually mount the cifs share in DestVM after each reboot...
 </ul>
 
 <B>Todo - in unprioritized order</B>:
 <ul>
-  <li>Automate (or make persistent) cifs mount in DestVM
+  <li>Automate (or make persistent) cifs mount in DestVM...
   <li>Dump a list of running VMs, so they can be started after backup is completed. (From qvm-ls)
   <li>Comments and variables for easy use
   <li>Descripe requirements
@@ -23,4 +23,5 @@ Script for automated Qubes backup over network
   <li>Make all options for qvm-backup, qvm-shutdown and qvm-start available with variables
   <li>Passphrase - does it really needs to be in a file?
   <li>Send email with status?
+  <li>Easy way to include TemplateVMs
 </ul>
